@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 5rem;
+  background-image: url(../images/bg-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #674baf; }
+
+.hero__logo {
+  width: 20rem; }
+
+.huddle {
+  display: flex;
+  gap: 4rem; }
+  .huddle__logo {
+    width: 50vw; }
+  .huddle__right-section--header-1 {
+    font-size: 3.4rem;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #fff; }
+  .huddle__right-section--p {
+    font-size: 1.4rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #fff; }
+  .huddle__button {
+    font-size: 2rem;
+    padding: 1.2rem 5.5rem;
+    border: none;
+    border-radius: 4rem;
+    color: #674baf;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+
+.footer {
+  text-align: end; }
+  .footer__brands--fb, .footer__brands--insta, .footer__brands--twitter {
+    width: 3rem;
+    height: 3rem; }
+
+.mt-sm {
+  margin-top: 1rem; }
+
+.mt-md {
+  margin-top: 2rem; }
+
+.mt-lg {
+  margin-top: 3rem; }
+
+.mt-xl {
+  margin-top: 4rem; }
+
+.mt-xxl {
+  margin-top: 6rem; }
+
+.mr-sm {
+  margin-right: 1rem; }
+
+.mr-md {
+  margin-right: 2rem; }
